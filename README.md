@@ -1,2 +1,2 @@
 # HTML-Survey-Form
-CCS Survey form
+CSS Survey form
