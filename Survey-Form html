@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+  <h1 id="title">DTI Perparation 
+    Survey Form</h1>
+  <p id="description">
+  Thank you for taking the time to help us 
+  improve the platform  
+  </p>
+  <form id="survey-form">
+    <label id="name-label">Name
+      <input id="name" required type="text"
+      placeholder="Enter your name">
+      </input>
+    </label>
+    <label id="email-label">Email
+      <input id="email" required type="email" 
+      placeholder="Enter your email" >
+      </input>
+      <label id="number-label">Age
+        <input id="number" min="18" max="35" 
+    type="number"placeholder="Age"></input>
+      </label>
+      <label>What is your proficiency level in English? 
+      </label>
+      <select id="dropdown" required>
+        <option value="">Select one</option>
+       <option value="1">Beginner</option> 
+       <option value="2">Elementary</option>
+       <option value="3">intermediate</option>
+       <option value="4">Upper-intermediate</option>
+       <option value="5">Advanced</option>
+      </select> 
+     <label>How do you use it?</label>
+ <label><input value="online-use" name="use" 
+ type="radio"class="inline"/>Online</label>
+ <label>
+ <input value="offline-use" name="use" 
+ type="radio" class="inline"/>Offline</label> 
+ <label>what is your primary use 
+        of the plaform for?</label>
+  <label>      
+ <input type="checkbox" 
+ value="checkbox1" class="inline"/>Scholarship </label>
+ <label>
+<input type="checkbox" value="checkbox2" 
+class="inline"/>Applying Job</label>
+ <label>
+   <input type="checkbox" value="checkbox3" 
+ class="inline"/>Other</label>
+  <label>Any comments or suggestions?</label>
+  <textarea rows="5" cols="25" 
+  type="textarea" 
+  placeholder="Enter your comment here..."></textarea>
+  </label>
+  <button id="submit">Submit</button>
+</form>
+
+  </body>
