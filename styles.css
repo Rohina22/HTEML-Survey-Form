@@ -2,15 +2,15 @@ body {
   width: 100%;
   height: 100vh;
   margin: 0px;
-  background-color: #1F4757;
-  color: #FFFF;
+  background-color: #1f4757;
+  color: #ffff;
   font-size: 16px;
-  font-family: Times New Roman;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 h1, p {
   margin: 1em auto;
-  text-align: center;
+  text-align: center;  
 }
 
 form {
@@ -38,7 +38,7 @@ input, textarea, select {
   vertical-align: middle; 
 }
 
-button[id="submit"] {
+button[id='submit'] {
   display: block;
   width: 50%;
   margin: 1em auto;
